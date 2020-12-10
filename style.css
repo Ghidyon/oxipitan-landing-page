@@ -81,3 +81,51 @@ header .header-button {
     height: 45px;
     padding: 0 15px 0 5px;  
 }
+
+section {
+    display: flex;
+    padding: 3rem 5rem;
+    font-family: Poppins;
+}
+
+section article {
+    width: 65%;
+    position: relative;
+}
+
+section aside {
+    margin-left: 1rem;
+}
+
+section article img {
+    width: 100%;
+}
+
+section article div {
+    background: #f1ae44;
+    width: 38.04%;
+    height: 8px;
+    margin-top: -.4rem;
+}
+
+section article div::after {
+    position: absolute;
+    content: '38.04%';
+    text-align: center;
+    color: white;
+    background: #f1ae44;
+    padding: .1rem .4rem;
+    font-size: 10px;
+    font-family: Poppins;
+    left: 38.04%;
+    bottom: 14px;
+}
+
+section article div::before {
+    position: absolute;
+    content: '';
+    left: 38.04%;
+    bottom: 8px;
+    border: 6px solid transparent;
+    border-left-color: #f1ae44;
+}
