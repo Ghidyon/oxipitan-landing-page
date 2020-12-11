@@ -108,7 +108,6 @@ section {
 }
 
 section > div:nth-of-type(1) {
-    /* outline: 1px solid black; */
     width: 64.5%;
     position: relative;
 }
@@ -222,10 +221,6 @@ section > div:first-of-type p:nth-of-type(2) input {
     outline: none;
 }
 
-/* section div p:last-of-type input:focus {
-    border: 1px solid #f2f0ec;
-} */
-
 section > div:nth-of-type(1) > button {
     background: #f1ae44;
     padding: .5rem 1rem .45rem .9rem;
@@ -257,13 +252,16 @@ section > div:first-of-type p.content{
     color: #818181;
 }
 
+section > div:first-of-type p.content:last-of-type {
+    margin-bottom: 0;
+}
+
 section > div:first-of-type p.content.width {
     width: 52%;
 }
 
 section > div:first-of-type h4 {
     margin-bottom: 12px;
-    /* margin-top: 0; */
 }
 
 section > div:first-of-type > img {
@@ -284,7 +282,6 @@ section > div:first-of-type p.block {
 
 section > div:last-of-type {
     width: 35.5%;
-    outline: 1px solid salmon;
 }
 
 section > div:last-of-type aside {
@@ -321,12 +318,12 @@ section > div:last-of-type aside > div:first-of-type ul li p:last-of-type {
 }
 
 section > div:last-of-type aside > div:last-of-type > div {
-    margin-bottom: 2rem;
     padding: 2rem;
 }
 
 section > div:last-of-type aside > div:last-of-type > div > div > img {
     width: 100%;
+    height: 100%;
 }
 
 section > div:last-of-type aside > div:last-of-type > div > h5 {
@@ -368,6 +365,7 @@ section > div:last-of-type aside > div:last-of-type > div .donate-1,
 section > div:last-of-type aside > div:last-of-type > div .donate-2,
 section > div:last-of-type aside > div:last-of-type > div .donate-3 {
     position: relative;
+    height: 300px;
 }
 
 section > div:last-of-type aside > div:last-of-type > div .donate-1 > div.donate-green:before {
@@ -447,16 +445,16 @@ section > div:last-of-type aside > div:last-of-type > div .donate-3 .video-icon 
     transform: translate(-13%, -2.5%);
 }
 
-section > div:last-of-type aside > div:last-of-type > div .donate-1 .camera-icon,
-section > div:last-of-type aside > div:last-of-type > div .donate-2 .camera-icon,
-section > div:last-of-type aside > div:last-of-type > div .donate-3 .camera-icon {
+section > div:last-of-type aside > div:last-of-type > div .donate-1 img.camera-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-2 img.camera-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-3 img.camera-icon {
     right: 3%;
     top: 2%;
     transform: translate(-3%, -2%);
 }
 
 section > div:last-of-type aside > div:last-of-type > div .details {
-
+    margin: 1.5rem 0 2.5rem 0;
 }
 
 section > div:last-of-type aside > div:last-of-type > div .details > p {
@@ -476,4 +474,30 @@ section > div:last-of-type aside > div:last-of-type > div .details > p > span {
 section > div:last-of-type aside > div:last-of-type > div .details > p > span:last-of-type {
     color: #E36955;
     margin-left: .3rem;
+}
+
+section > div:last-of-type aside > div:last-of-type > div .details > p:first-of-type {
+    margin: 1rem 0 .7rem 0;
+}
+
+section > div:last-of-type aside > div:last-of-type > div .details .details-button {
+    margin: 1.8rem 0 1rem 0;
+    padding: .8rem 2.3rem;
+    font-size: 12px;
+}
+
+section > div:last-of-type aside > div:last-of-type > div .details .details-button:last-of-type {
+    margin-bottom: 0;
+}
+
+section > div:last-of-type aside > div:last-of-type > div .details .details-button.green {
+    background: #00bdc0;
+}
+
+section > div:last-of-type aside > div:last-of-type > div .details .details-button.red {
+    background: #f86048;
+}
+
+section > div:last-of-type aside > div:last-of-type > div .details .details-button.orange {
+    background: #ffa940;
 }
