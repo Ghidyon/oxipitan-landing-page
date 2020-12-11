@@ -56,9 +56,12 @@ nav ul li a img {
     height: 15px;
 }
 
-.nav-button {
+.nav-button, .section-button {
     height: 45px;
     padding: 0 40px 0 30px;
+}
+
+.nav-button {
     margin-left: 1rem;
 }
 
@@ -88,27 +91,31 @@ section {
     font-family: Poppins;
 }
 
-section article {
+section div:nth-of-type(1) {
     width: 65%;
-    position: relative;
 }
 
 section aside {
     margin-left: 1rem;
 }
 
-section article img {
+section div:nth-of-type(1) article {
+    position: relative;
     width: 100%;
 }
 
-section article div {
+section div:nth-of-type(1) article img {
+    width: 100%;
+}
+
+section div:nth-of-type(1) article div {
     background: #f1ae44;
     width: 38.04%;
     height: 10px;
     margin-top: -.4rem;
 }
 
-section article div::after {
+section div:nth-of-type(1) article div::after {
     position: absolute;
     content: '38.04%';
     text-align: center;
@@ -121,7 +128,7 @@ section article div::after {
     bottom: 18px;
 }
 
-section article div::before {
+section div:nth-of-type(1) article div::before {
     position: absolute;
     content: '';
     left: 38.04%;
@@ -130,7 +137,7 @@ section article div::before {
     border-left-color: #f1ae44;
 }
 
-section article a {
+section div:nth-of-type(1) article a {
     display: inline-block;
     position: absolute;
     content: '';
@@ -140,15 +147,84 @@ section article a {
     height: 25px;
 }
 
-section article a:nth-of-type(1) {
+section div:nth-of-type(1) article a:nth-of-type(1) {
     right: 1%;
     top: 10px;
 }
 
-section article a:nth-of-type(2) {
+section div:nth-of-type(1) article a:nth-of-type(2) {
     right: 6.5%;
     top: 10px;
 }
-section article a img {
+section div:nth-of-type(1) article a img {
     width: 100%;
 }
+
+section div h3 {
+    font-family: 'Playfair Display';
+    font-size: 30.5px;
+    padding: 1.3rem 0;
+}
+
+section div p:first-of-type {
+    font-weight: 500;
+    font-size: 18px;
+    color: #818181;
+}
+
+section div p .orange {
+    color: #f1ae44;
+}
+
+section div p .red {
+    color: #E36955;
+}
+
+section div p:last-of-type {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+section div p:last-of-type span {
+    display: inline-block;
+    background: #f1ae44;
+    border: 1px solid #f1ae44;
+    padding: .5rem 1rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+section div p:last-of-type input {
+    height: 100%;
+    border: 1px solid #cccccc;
+    border-left-color: #f1ae44;
+    font-family: Poppins;
+    padding: 0 1rem;
+    outline: none;
+}
+
+/* section div p:last-of-type input:focus {
+    border: 1px solid #f2f0ec;
+} */
+
+section div:nth-of-type(1) > button {
+    background: #f1ae44;
+    padding: .5rem 1rem .45rem .9rem;
+    font-size: 12px;
+    margin-right: .5rem;
+    margin-bottom: 2rem;
+    clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+}
+
+section div:nth-of-type(1) > button:last-of-type {
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+
+section div:nth-of-type(1) > button:first-of-type {
+    background: #E36955;
+}
+
+section div:nth-of-type(1) div
