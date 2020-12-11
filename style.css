@@ -7,7 +7,7 @@
     list-style: none;
 }
 
-h4, h5 {
+h4, h5, h6 {
     font-family: 'Playfair Display';
 }
 
@@ -17,6 +17,13 @@ h4 {
 
 h5 {
     font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+h5, h6 {
     font-weight: 900;
 }
 
@@ -163,6 +170,7 @@ section > div:first-of-type article a:nth-of-type(2) {
     right: 6.5%;
     top: 10px;
 }
+
 section > div:first-of-type article a img {
     width: 100%;
 }
@@ -447,5 +455,25 @@ section > div:last-of-type aside > div:last-of-type > div .donate-3 .camera-icon
     transform: translate(-3%, -2%);
 }
 
+section > div:last-of-type aside > div:last-of-type > div .details {
 
+}
 
+section > div:last-of-type aside > div:last-of-type > div .details > p {
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+section > div:last-of-type aside > div:last-of-type > div .details > p > img {
+    margin-right: .7rem;
+}
+
+section > div:last-of-type aside > div:last-of-type > div .details > p > span {
+    font-weight: 600;
+}
+
+section > div:last-of-type aside > div:last-of-type > div .details > p > span:last-of-type {
+    color: #E36955;
+    margin-left: .3rem;
+}
