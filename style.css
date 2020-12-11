@@ -8,6 +8,11 @@
     list-style: none;
 }
 
+h4 {
+    font-family: 'Playfair Display';
+    font-size: 22px;
+}
+
 a {
     color: #424242;
     text-decoration: none;
@@ -88,31 +93,33 @@ section {
     font-family: Poppins;
 }
 
-section div:nth-of-type(1) {
-    width: 64%;
+section > div:nth-of-type(1) {
+    /* outline: 1px solid black; */
+    width: 64.5%;
+    position: relative;
 }
 
 section aside {
     margin-left: 1rem;
 }
 
-section div:nth-of-type(1) article {
+section > div:first-of-type article {
     position: relative;
     width: 100%;
 }
 
-section div:nth-of-type(1) article img {
+section > div:first-of-type article img {
     width: 100%;
 }
 
-section div:nth-of-type(1) article div {
+section > div:first-of-type article div {
     background: #f1ae44;
     width: 38.04%;
     height: 10px;
     margin-top: -.4rem;
 }
 
-section div:nth-of-type(1) article div::after {
+section > div:first-of-type article div::after {
     position: absolute;
     content: '38.04%';
     text-align: center;
@@ -125,7 +132,7 @@ section div:nth-of-type(1) article div::after {
     bottom: 18px;
 }
 
-section div:nth-of-type(1) article div::before {
+section > div:first-of-type article div::before {
     position: absolute;
     content: '';
     left: 38.04%;
@@ -134,7 +141,7 @@ section div:nth-of-type(1) article div::before {
     border-left-color: #f1ae44;
 }
 
-section div:nth-of-type(1) article a {
+section > div:first-of-type article a {
     display: inline-block;
     position: absolute;
     content: '';
@@ -144,47 +151,47 @@ section div:nth-of-type(1) article a {
     height: 25px;
 }
 
-section div:nth-of-type(1) article a:nth-of-type(1) {
+section > div:first-of-type article a:nth-of-type(1) {
     right: 1%;
     top: 10px;
 }
 
-section div:nth-of-type(1) article a:nth-of-type(2) {
+section > div:first-of-type article a:nth-of-type(2) {
     right: 6.5%;
     top: 10px;
 }
-section div:nth-of-type(1) article a img {
+section > div:first-of-type article a img {
     width: 100%;
 }
 
-section div h3 {
+section > div h3 {
     font-family: 'Playfair Display';
     font-size: 30.5px;
     padding: 1.3rem 0;
 }
 
-section div p:first-of-type {
+section > div p:first-of-type {
     font-weight: 500;
     font-size: 18px;
     color: #818181;
 }
 
-section div p .orange {
+section > div p .orange {
     color: #f1ae44;
 }
 
-section div p .red {
+section > div p .red {
     color: #E36955;
 }
 
-section div p:nth-of-type(2) {
+section > div p:nth-of-type(2) {
     height: 35px;
     display: flex;
     align-items: center;
     margin: 2rem 0;
 }
 
-section div p:nth-of-type(2) span {
+section > div p:nth-of-type(2) span {
     display: inline-block;
     background: #f1ae44;
     border: 1px solid #f1ae44;
@@ -194,7 +201,7 @@ section div p:nth-of-type(2) span {
     color: white;
 }
 
-section div p:nth-of-type(2) input {
+section > div p:nth-of-type(2) input {
     width: 100px;
     height: 100%;
     border: 1px solid #cccccc;
@@ -208,7 +215,7 @@ section div p:nth-of-type(2) input {
     border: 1px solid #f2f0ec;
 } */
 
-section div:nth-of-type(1) > button {
+section > div:nth-of-type(1) > button {
     background: #f1ae44;
     padding: .5rem 1rem .45rem .9rem;
     font-size: 12px;
@@ -217,23 +224,50 @@ section div:nth-of-type(1) > button {
     clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
 }
 
-section div:nth-of-type(1) > button:last-of-type {
+section > div:nth-of-type(1) > button:last-of-type {
     clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
 }
 
-section div:nth-of-type(1) > button:first-of-type {
+section > div:nth-of-type(1) > button:first-of-type {
     background: #E36955;
 }
 
-section div:nth-of-type(1) > div .section-button {
+section > div:nth-of-type(1) > div .section-button {
     background: #f1ae44;
     height: 45px;
     width: 160px;
+    margin-bottom: 2.5rem;
 }
 
-section div:first-of-type p.content{
+section > div:first-of-type p.content{
     font-size: 16px; 
     line-height: 2;
-    margin-bottom: 1rem;
+    margin-bottom: 12px;
     color: #818181;
 }
+
+section > div:first-of-type p.content.width {
+    width: 52%;
+}
+
+section > div:first-of-type h4 {
+    margin-bottom: 12px;
+    /* margin-top: 0; */
+}
+
+section > div:first-of-type > img {
+    position: absolute;
+    right: 0;
+    bottom: 23%;
+}
+
+section > div:first-of-type p.block {
+    background: #d1ecf1;
+    font-size: 16px; 
+    line-height: 2;
+    color: #0c5460;
+    padding: 2rem 2.7rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
