@@ -56,12 +56,9 @@ nav ul li a img {
     height: 15px;
 }
 
-.nav-button, .section-button {
+.nav-button {
     height: 45px;
     padding: 0 40px 0 30px;
-}
-
-.nav-button {
     margin-left: 1rem;
 }
 
@@ -92,7 +89,7 @@ section {
 }
 
 section div:nth-of-type(1) {
-    width: 65%;
+    width: 64%;
 }
 
 section aside {
@@ -180,24 +177,25 @@ section div p .red {
     color: #E36955;
 }
 
-section div p:last-of-type {
-    height: 40px;
+section div p:nth-of-type(2) {
+    height: 35px;
     display: flex;
     align-items: center;
     margin: 2rem 0;
 }
 
-section div p:last-of-type span {
+section div p:nth-of-type(2) span {
     display: inline-block;
     background: #f1ae44;
     border: 1px solid #f1ae44;
-    padding: .5rem 1rem;
+    padding: .35rem .8rem;
     font-size: 16px;
     font-weight: 700;
     color: white;
 }
 
-section div p:last-of-type input {
+section div p:nth-of-type(2) input {
+    width: 100px;
     height: 100%;
     border: 1px solid #cccccc;
     border-left-color: #f1ae44;
@@ -227,4 +225,15 @@ section div:nth-of-type(1) > button:first-of-type {
     background: #E36955;
 }
 
-section div:nth-of-type(1) div
+section div:nth-of-type(1) > div .section-button {
+    background: #f1ae44;
+    height: 45px;
+    width: 160px;
+}
+
+section div:first-of-type p.content{
+    font-size: 16px; 
+    line-height: 2;
+    margin-bottom: 1rem;
+    color: #818181;
+}
