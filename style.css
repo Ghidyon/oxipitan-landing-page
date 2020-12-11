@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&display=swap');
 
 * {
     margin: 0;
@@ -8,11 +8,17 @@
     list-style: none;
 }
 
-h4 {
+h4, h5 {
     font-family: 'Playfair Display';
+}
+
+h4 {
     font-size: 22px;
 }
 
+h5 {
+    font-size: 20px;
+}
 a {
     color: #424242;
     text-decoration: none;
@@ -97,10 +103,6 @@ section > div:nth-of-type(1) {
     /* outline: 1px solid black; */
     width: 64.5%;
     position: relative;
-}
-
-section aside {
-    margin-left: 1rem;
 }
 
 section > div:first-of-type article {
@@ -271,3 +273,24 @@ section > div:first-of-type p.block {
     margin: 1rem 0;
 }
 
+section > div:last-of-type {
+    width: 35.5%;
+    outline: 1px solid salmon;
+}
+
+section > div:last-of-type aside {
+    margin-left: 2rem;
+}
+
+section > div:last-of-type aside > div {
+    background: #f2f0ec;
+}
+
+section > div:last-of-type aside > div:first-of-type {
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+section > div:last-of-type aside > div:first-of-type h5 {
+    font-weight: 900;
+}
