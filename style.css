@@ -381,7 +381,7 @@ section > div:last-of-type aside > div:last-of-type > div .donate-3 > div.donate
     color: white;
     padding: .2rem .4rem;
     right: 0;
-    bottom: 22px;
+    bottom: 18px;
 }
 
 section > div:last-of-type aside > div:last-of-type > div .donate-2 > div.donate-red:before {
@@ -419,13 +419,33 @@ section > div:last-of-type aside > div:last-of-type > div .donate-3 > div.donate
     right: 2px;
     border-right-color: #ffa940;
 }
-/* section > div:last-of-type aside > div:last-of-type > div .donate-1 > div:after,
-section > div:last-of-type aside > div:last-of-type > div .donate-2 > div:after,
-section > div:last-of-type aside > div:last-of-type > div .donate-3 > div:after {
-    
-   
-} */
 
+section > div:last-of-type aside > div:last-of-type > div .donate-1 .camera-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-1 .video-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-2 .camera-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-2 .video-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-3 .camera-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-3 .video-icon {
+    position: absolute;    
+    width: 26px;
+    height: 26px;
+}
+
+section > div:last-of-type aside > div:last-of-type > div .donate-1 .video-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-2 .video-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-3 .video-icon {
+    right: 13%;
+    top: 2.5%;
+    transform: translate(-13%, -2.5%);
+}
+
+section > div:last-of-type aside > div:last-of-type > div .donate-1 .camera-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-2 .camera-icon,
+section > div:last-of-type aside > div:last-of-type > div .donate-3 .camera-icon {
+    right: 3%;
+    top: 2%;
+    transform: translate(-3%, -2%);
+}
 
 
 
