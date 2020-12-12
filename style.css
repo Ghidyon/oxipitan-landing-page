@@ -526,8 +526,10 @@ footer {
 }
 
 footer .newsletter {
+    font-family: Poppins;
     text-align: center;
     color: white;
+    padding: 6rem 0;
 }
 
 footer .newsletter img {
@@ -537,5 +539,95 @@ footer .newsletter img {
 
 footer .newsletter h2 {
     color: white;
+    margin-bottom: 1rem;
 }
 
+footer .newsletter > p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #863bae;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 2.7rem;
+}
+
+footer .newsletter .subscribe {
+    display: inline-flex;
+    height: 65px;
+}
+
+footer .newsletter .subscribe input {
+    outline: none;
+    width: 400px;
+    margin-right: .5rem;
+    padding: 0 1.5rem;
+    background: #343434;
+    border: 0;
+    font-family: Poppins;
+    font-size: 18px;
+    color: white;
+}
+
+footer .newsletter .subscribe input::placeholder {
+    font-size: 16px;
+}
+
+footer .newsletter .subscribe button {
+    padding: 0 3rem 0 2.5rem;
+    font-size: 12px;
+}
+
+footer .links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 5rem;
+    margin-bottom: 7.5rem;
+}
+
+footer .links > div > h4 {
+    font-size: 26px;
+    color: white;
+    line-height: 3;
+}
+
+footer .links > div > ul {
+    color: #bfbfbf;
+    font-family: Poppins;
+}
+
+footer .links > div > ul li {
+    line-height: 2.3;
+}
+
+footer .links > div > button {
+    padding: .75rem 1rem .75rem .75rem;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 1.2rem;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+
+footer .links > div > button.green {
+    background: #00bdc0;
+    margin-right: .75rem;
+}
+
+footer .links > div > button.red {
+    background: #E36955;
+    margin-right: .75rem;
+}
+
+footer .links > div > button.orange {
+    background: #f1ae44;
+}
+
+footer .footer {
+    border-top: 1px solid #5f5f5f;
+    padding: 2.5rem 0;
+}
+
+footer .footer p {
+    text-align: center;
+    color: #bfbfbf;
+    font-family: Poppins;
+}
