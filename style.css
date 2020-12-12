@@ -70,12 +70,14 @@ nav {
     font-weight: 500;
     display: flex;
     align-items: center;
-    padding: 2rem 5rem;
+    padding: 1rem 5rem;
+    box-shadow: 0 2px 5px #f2f0ec;
 }
 
 nav img {
     width: 220px;
 }
+
 nav ul {
     display: flex;
     align-items: center;
@@ -100,6 +102,7 @@ nav ul li a img {
 }
 
 header {
+    margin-top: 6rem;
     background: #f2f0ec;
     display: flex;
     flex-direction: column;
@@ -393,7 +396,7 @@ section > div:last-of-type aside > div:last-of-type > div .donate-1 > div.donate
     background: #00bdc0;
     padding: .2rem .4rem;
     left: 66%;
-    bottom: 18px;
+    bottom: 8px;
 }
 
 section > div:last-of-type aside > div:last-of-type > div .donate-2 > div.donate-red:before,
@@ -403,7 +406,7 @@ section > div:last-of-type aside > div:last-of-type > div .donate-3 > div.donate
     color: white;
     padding: .2rem .4rem;
     right: 0;
-    bottom: 18px;
+    bottom: 8px;
 }
 
 section > div:last-of-type aside > div:last-of-type > div .donate-2 > div.donate-red:before {
@@ -423,7 +426,7 @@ section > div:last-of-type aside > div:last-of-type > div .donate-2 > div.donate
 section > div:last-of-type aside > div:last-of-type > div .donate-3 > div.donate-orange:after {
     position: absolute;
     content: '';
-    bottom: 12px;
+    bottom: 2px;
     border: 6px solid transparent;
 }
 
