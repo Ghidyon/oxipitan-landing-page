@@ -143,7 +143,7 @@ section > div:first-of-type article div {
     background: #f1ae44;
     width: 38.04%;
     height: 10px;
-    margin-top: -.4rem;
+    margin-top: -.5rem;
 }
 
 section > div:first-of-type article div::after {
@@ -155,7 +155,7 @@ section > div:first-of-type article div::after {
     padding: .2rem .4rem;
     font-size: 14px;
     font-family: Poppins;
-    left: 38.04%;
+    left: 37.8%;
     bottom: 18px;
 }
 
@@ -275,7 +275,7 @@ section > div:first-of-type p.content:last-of-type {
 }
 
 section > div:first-of-type p.content.width {
-    width: 52%;
+    width: 54%;
 }
 
 section > div:first-of-type h4 {
@@ -285,7 +285,7 @@ section > div:first-of-type h4 {
 section > div:first-of-type > img {
     position: absolute;
     right: 0;
-    bottom: 23%;
+    bottom: 420px;
 }
 
 section > div:first-of-type p.block {
@@ -395,7 +395,7 @@ section > div:last-of-type aside > div:last-of-type > div .donate-1 > div.donate
     color: white;
     background: #00bdc0;
     padding: .2rem .4rem;
-    left: 66%;
+    left: 68.5%;
     bottom: 8px;
 }
 
@@ -431,7 +431,7 @@ section > div:last-of-type aside > div:last-of-type > div .donate-3 > div.donate
 }
 
 section > div:last-of-type aside > div:last-of-type > div .donate-1 > div.donate-green:after {
-    left: 79%;
+    left: 79.5%;
     border-right-color: #00bdc0;
 }
 
